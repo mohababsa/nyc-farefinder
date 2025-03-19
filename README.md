@@ -93,7 +93,7 @@ The frontend should be accessible at `http://localhost:5173`.
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the ![LICENSE](./LICENCE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENCE) file for details.
 
 ## Acknowledgments
 Built as part of an internship project at **CellulaTechnologies**.
