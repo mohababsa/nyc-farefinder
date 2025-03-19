@@ -37,3 +37,44 @@ Clone the project repository to your local machine:
 ```bash
 git clone https://github.com/mohababsa/nyc-farefinder.git
 cd nyc-farefinder
+```
+
+### Step 2: Set Up the Virtual Environment
+Create and activate the virtual environment:
+```bash
+python -m venv fare_prediction_venv
+.\fare_prediction_venv\Scripts\activate  # Windows
+# For macOS/Linux: source fare_prediction_venv/bin/activate
+```
+Install python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Set Up the Backend (Python/Django)
+Navigate to the backend directory and run the Django development server to ensure the backend is working:
+```bash
+cd fare_prediction
+python manage.py runserver
+```
+The backend should be accessible at `http://localhost:8000`.
+
+### Step 4: Set Up the Frontend (React)
+Navigate to the Frontend Directory:
+```bash
+cd ../fare-prediction-frontend
+```
+Ensure you have `Node.js` `v22.14.0` and `npm 11.2.0`. Install the required packages:
+```bash
+npm install
+```
+The app uses icons from `@heroicons/react/24/outline`. Install it:
+```bash
+npm install @heroicons/react
+```
+Verify `Tailwind CSS` and `Vite` Configuration.
+Start the React development server:
+```bash
+npm run dev
+```
+The frontend should be accessible at `http://localhost:5173` (or the port specified by `Vite`).
