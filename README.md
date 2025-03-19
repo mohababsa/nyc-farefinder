@@ -1,4 +1,4 @@
-# NYC FareFinder Web App 🚖
+# NYC FareFinder Web App 🚖💵
 
 NYC FareFinder is a web application designed to predict taxi fares in New York City using machine learning. Built with a modern tech stack, the app leverages an **Extra Trees Regressor** model (R² score of 0.94) to provide accurate fare predictions, helping users plan their trips efficiently.
 
