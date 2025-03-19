@@ -26,9 +26,19 @@ Before setting up the project, ensure you have the following installed:
 - **Python**: `3.11.9`
 
 ## Project Structure
-The project is divided into two main directories:
+The project is divided into three main directories:
 - `fare-prediction-frontend/`: Contains the React frontend.
 - `fare_prediction/`: Contains the Django backend and ML models.
+- `notebooks/`: Contains Jupyter notebooks for EDA, Preprocessing and Training of various Regressor models.
+
+### How to Use the Notebooks
+1. **Option 1: Train the Model Yourself**
+   - Download the dataset from [this link](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data).
+   - Navigate to the `notebooks/` directory and run the Jupyter notebooks in order.
+
+2. **Option 2: Use the Pre-Trained Model**
+   - Download our existing trained Extra Trees Regressor model from [this link](https://your-model-hosting-service.com/extra_trees_model.pkl).
+   - Place the `Extra_Trees.pkl` file in the `fare_prediction/models/` directory.
 
 ## Setup Instructions
 
@@ -77,4 +87,13 @@ Start the React development server:
 ```bash
 npm run dev
 ```
-The frontend should be accessible at `http://localhost:5173` (or the port specified by `Vite`).
+The frontend should be accessible at `http://localhost:5173`.
+
+## Contributing
+Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
+
+## License
+This project is licensed under the MIT License. See the ![LICENSE](./LICENCE) file for details.
+
+## Acknowledgments
+Built as part of an internship project at **CellulaTechnologies**.
