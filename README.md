@@ -96,4 +96,4 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 This project is licensed under the MIT License. See the [LICENSE](./LICENCE) file for details.
 
 ## Acknowledgments
-Built as part of an internship project at **CellulaTechnologies**.
+Built as part of an internship project at [**CellulaTechnologies**](https://www.linkedin.com/company/cellula-technologies/posts/?feedView=all).
