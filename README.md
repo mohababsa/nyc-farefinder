@@ -5,11 +5,10 @@ NYC FareFinder is a web application designed to predict taxi fares in New York C
 ## Screenshots
 Below are some screenshots showcasing the NYC FareFinder interface:
 
-| **Home Page** | **Fare Prediction Form** | **Prediction Result** |
-|---------------|--------------------------|-----------------------|
-| ![Home Page](screenshots/home-page.png) | ![Fare Prediction Form](screenshots/fare-form.png) | ![Prediction Result](screenshots/prediction-result.png) |
+| **Fare Prediction Form** | **Prediction Result** |
+|--------------------------|-----------------------|
+| ![Fare Prediction Form](screenshots/src1.png) | ![Prediction Result](screenshots/src2.png) |
 
-*To add screenshots, create a `screenshots/` folder in your project root, add your images (e.g., `home-page.png`, `fare-form.png`, `prediction-result.png`), and update the paths above accordingly.*
 
 ## Features
 - **Accurate Fare Prediction**: Predicts taxi fares using an Extra Trees Regressor (R² score: 0.94) based on factors like passenger count, traffic, weather conditions, pickup time, and distance.
@@ -18,8 +17,6 @@ Below are some screenshots showcasing the NYC FareFinder interface:
 ## Tech Stack
 - **Frontend**: Vite, React (TypeScript), Tailwind CSS
 - **Backend**: Django (Python)
-- **Machine Learning**: Scikit-learn, pandas, numpy
-- **Icons**: `@heroicons/react/24/outline`
 
 ## Prerequisites
 Before setting up the project, ensure you have the following installed:
