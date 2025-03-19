@@ -33,7 +33,7 @@ The project is divided into three main directories:
 
 ### How to Use the Notebooks
 1. **Option 1: Train the Model Yourself**
-   - Download the dataset from [this link](https://www.kaggle.com/competitions/new-york-city-taxi-fare-prediction/data).
+   - Download the dataset from [this link](https://mega.nz/file/FP12nADK#j-Rd32Ohe6FEf_sYKCN7qriiFdpLGJiNReprFsob938).
    - Navigate to the `notebooks/` directory and run the Jupyter notebooks in order.
 
 2. **Option 2: Use the Pre-Trained Model**
