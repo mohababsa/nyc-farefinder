@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/montserrat-semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to bottom right, #1a202c, #edf2f7);
+}
+
+@keyframes groq-fade-in-first {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes groq-fade-in-second {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #F28C38, 0 0 10px #F28C38;
+  }
+  50% {
+    box-shadow: 0 0 10px #F28C38, 0 0 20px #F28C38;
+  }
+  100% {
+    box-shadow: 0 0 5px #F28C38, 0 0 10px #F28C38;
+  }
+}
+
+.animate-groq-fade-in-first {
+  animation: groq-fade-in-first 2s ease-out forwards;
+}
+
+.animate-groq-fade-in-second {
+  animation: groq-fade-in-second 2s ease-out 0.5s forwards; /* 0.5s delay */
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+.hover\:text-yellow-400:hover {
+  color: #F28C38; /* Groq Orange as accent */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px); /* Adjust based on navbar + footer height */
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+}
